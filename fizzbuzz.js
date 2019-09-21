@@ -7,7 +7,7 @@ class FizzBuzz {
     } else if (number % 3 == 0) {
       return "Fizz";
     }
-    return 1;
+    return number;
   }
 }
 module.exports = FizzBuzz;
